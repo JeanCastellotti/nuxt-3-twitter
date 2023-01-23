@@ -4,7 +4,7 @@ const darkMode = ref(true)
 
 <template>
   <div :class="{ dark: darkMode }">
-    <div class="min-h-screen">
+    <div class="min-h-screen bg-white dark:bg-slate-800">
       <div
         class="mx-auto grid grid-cols-12 sm:px-6 lg:max-w-7xl lg:gap-5 lg:px-8"
       >
