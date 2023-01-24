@@ -1,7 +1,5 @@
-<script setup></script>
-
 <template>
-  <div class="hidden xs:col-span-1 md:block xl:col-span-2">
+  <div class="hidden h-screen md:block xl:col-span-2">
     <div class="sticky top-0">
       <TheLogo />
 
