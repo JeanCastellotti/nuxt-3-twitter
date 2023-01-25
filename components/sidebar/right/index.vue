@@ -1,4 +1,6 @@
 <script setup>
+const toggleDarkMode = inject('toggleDarkMode')
+
 const whatsHappeningItems = ref([
   {
     title: '#spacex',
@@ -72,6 +74,7 @@ const whoToFollowItems = ref([
           </div>
         </SidebarRightItem>
       </SidebarRightCard>
+      <button @click="toggleDarkMode">Dark Mode</button>
     </div>
   </div>
 </template>
